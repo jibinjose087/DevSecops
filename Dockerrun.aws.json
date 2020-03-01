@@ -1,7 +1,7 @@
 {
   "AWSEBDockerrunVersion": "1",
   "Image": {
-    "Name": "mcr.microsoft.com/dotnet/core/samples:aspnetapp",
+    "Name": "925653496544.dkr.ecr.us-east-1.amazonaws.com/dishtv:latest",
     "Update": "true"
   },
   "Ports": [
