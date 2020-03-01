@@ -7,7 +7,7 @@ phases:
       - aws --version
       - $(aws ecr get-login --region us-east-1 --no-include-email)
       - IMAGE_NAME="aspnetappsdpdevops"
-      - REPOSITORY_URI=925653496544.dkr.ecr.us-east-1.amazonaws.com/dishtv 
+      - REPOSITORY_URI=XXXXXXXX 
       - IMAGE_TAG=prod_$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
   build:
     commands:
