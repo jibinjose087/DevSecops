@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "mcr.microsoft.com/dotnet/core/samples:aspnetapp"
+  build:
+    commands:
+      - echo "Build completed"
+      - mkdir build-out
+      - cp -r Dockerrun.aws.json build-out/
+artifacts:
+  files:
+    - 'build-out/*'
